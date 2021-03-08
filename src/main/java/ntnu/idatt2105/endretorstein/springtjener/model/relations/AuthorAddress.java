@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.IdClass;
 
 @Entity
-@IdClass(AuthorAddressId.class)
+@IdClass(model.AuthorAddressId.class)
 public class AuthorAddress {
 
     @Id

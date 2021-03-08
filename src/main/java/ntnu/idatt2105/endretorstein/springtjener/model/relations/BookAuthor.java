@@ -7,8 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@IdClass(BookAuthorId.class)
-@Table(name="bookAuthors")
+@IdClass(model.BookAuthorId.class)
 public class BookAuthor implements Serializable {
 
     @Id
